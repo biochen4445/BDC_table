@@ -14,4 +14,6 @@ Package: **gt**
 `install.packages("gt")`
 
 Source gt_theme_BDC function() from github   
-`library(devtools) SourceURL <- "https://github.com/biochen4445/BDC_table/blob/main/gt_theme_BDC.R"  source_url(SourceURL)`
+`library(devtools)`    
+`SourceURL <- "https://github.com/biochen4445/BDC_table/blob/main/gt_theme_BDC.R"`  
+`source_url(SourceURL)`
