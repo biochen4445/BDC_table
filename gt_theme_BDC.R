@@ -1,7 +1,6 @@
 # BDC_table format
 # author: Hung-Lin Chen
 # date: 2023-12-10
-
 # 定義一個名為 BDC_gt_theme 的函數
 gt_theme_BDC <- function(gt_tbl) {
   gt_tbl |> # 接受一個 gt_tbl 參數
