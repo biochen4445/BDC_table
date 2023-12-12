@@ -2,9 +2,9 @@
 # author: Hung-Lin Chen
 # date: 2023-12-10
 
-# 定義一個名為 BDC_gt_theme 的函數，接受一個 gt_tbl 參數
-gt_theme_BDC <- function(gt_tbl) { # 定義一個名為 BDC_gt_theme 的函數，接受一個 gt_tbl 參數
-  gt_tbl |> 
+# 定義一個名為 BDC_gt_theme 的函數
+gt_theme_BDC <- function(gt_tbl) {
+  gt_tbl |> # 接受一個 gt_tbl 參數
     fmt_number(columns = everything(),
                decimals = 2) |> # 格式化數字，保留兩位小數
     tab_options(table.font.names = "Times New Roman", # 表格字體設置為 Times New Roman
